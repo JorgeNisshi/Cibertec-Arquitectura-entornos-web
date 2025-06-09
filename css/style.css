@@ -1,3 +1,4 @@
+
 *, 
 ::before, 
 ::after {
@@ -74,6 +75,7 @@ body {
 
 .hero__container {
     position: relative;
+    display: inline-block;
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
@@ -87,28 +89,32 @@ body {
     object-fit: cover;
 }
 
+.nav {
+    display: flex;
+}
+
 .hero__button {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
     width: 200px;
     height: 50px;
-    background-color: #dd7c7c;
-    z-index: 10;
-    text-align: center;
-    line-height: 50px;
-    border: 2px solid #fff;
-    border-radius: 10px;
-    color: white;
-    right: 5%;
-    top: 38%;
-    cursor: pointer;
-    transition: background-color 0.3s;
+
 }
 
 .hero__button:hover {
-    background-color: #609eef;
+    background-color: #dd7c7c;
 }
 
-/* Catalog Section */
+
 .catalog {
     width: 90%;
     max-width: 1200px;
@@ -131,7 +137,7 @@ body {
 .catalog__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .product {
@@ -152,7 +158,75 @@ body {
     display: block;
 }
 
-/* Responsive Design */
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-left h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.footer-left ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.footer-left ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 1.8;
+}
+
+.footer-left .copyright {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+.footer-center .logo {
+    font-size: 3.5em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.payment-methods,
+.social-media {
+    display: flex;
+    gap: 15px;
+}
+
+.payment-methods img {
+    height: 30px;
+}
+
+.social-media a {
+    color: white;
+    font-size: 1.5em;
+}
+
+
 @media (max-width: 768px) {
     .header__container {
         flex-direction: column;

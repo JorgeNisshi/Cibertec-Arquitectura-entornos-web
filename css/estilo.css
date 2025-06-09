@@ -1,0 +1,205 @@
+/* --- Estilos Generales --- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* --- Sección Principal de Contacto --- */
+.contact-section {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.contact-section h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+/* --- Columna Izquierda (Información) --- */
+.contact-info {
+    flex: 1;
+    text-align: left;
+}
+
+.contact-info p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.info-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 30px auto 0;
+}
+
+
+/* --- Columna Derecha (Formulario) --- */
+.contact-form {
+    flex: 1;
+}
+
+.contact-form h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background-color: #f0f2f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+
+.contact-form textarea {
+    resize: vertical; /* Permite al usuario cambiar la altura */
+}
+
+.contact-form button {
+    background-color: #ff5a5f; /* Un rojo similar al de la imagen */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #e04a4e;
+}
+
+
+/* --- Footer (Pie de Página) --- */
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-left h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.footer-left ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.footer-left ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 1.8;
+}
+
+.footer-left .copyright {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+.footer-center .logo {
+    font-size: 3.5em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.payment-methods,
+.social-media {
+    display: flex;
+    gap: 15px;
+}
+
+.payment-methods img {
+    height: 30px;
+}
+
+.social-media a {
+    color: white;
+    font-size: 1.5em;
+}
+
+
+/* --- Responsividad para Móviles --- */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+    }
+
+    .contact-info p {
+        text-align: center;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-right {
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .footer-center {
+        order: -1; /* Mueve el logo principal arriba en móviles */
+        margin-bottom: 20px;
+    }
+}
