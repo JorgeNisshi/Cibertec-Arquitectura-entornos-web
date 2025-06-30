@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos - Tienda de Moda </title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/stylesNosotros.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container fix" >
+            <h1 class="header__logo">Estilos</h1>
+            <nav class="nav">
+                <ul class="nav__list"> 
+                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item relative " >
+                        <a href="#" class="nav__link verHover">Catálogo</a>
+                        <ul class="cuadradoAbsoluto inactive">
+                            <li class="flex">
+                                <a href="#hover" id="hover" >Ropa</a>
+                                <ul class="right inactive" id="quitarInactive">
+                                    <li class="li__flex"><a href="#polos">Polos</a></li>
+                                    <li class="li__flex"><a href="#jeans">Jeans</a></li>
+                                    <li class="li__flex"><a href="#camisas5">Camisas</a></li>
+                                    <li class="li__flex"><a href="#casacas5">Casacas</a></li>
+                                    <li class="li__flex"><a href="#chalecos5">Chalecos</a></li>
+                                </ul>
+                            </li>
+                             <li class="flex ">
+                                <a href="" id="hover2">Accesorios</a>
+                                 <ul class="right inactive" id="quitarAccesorios">
+                                    <li  class="li__flex"><a href="#relojes">Relojes</a></li>
+                                    <li  class="li__flex"><a href="#collares">Collares</a></li>
+                                    <li  class="li__flex"><a href="#pulseras">Pulseras</a></li>
+                                    <li  class="li__flex"><a href="#aretes">Aretes</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav__item"><a href="/tendencia.html" class="nav__link">Tendencias</a></li>
+                    <li class="nav__item"><a href="./nosotros.html" class="nav__link">Nosotros</a></li>
+                    <li class="nav__item"><a href="./contactanos.html" class="nav__link">Contactos</a></li>
+                </ul>
+                <div class="header__icons">
+                    <img src="/image/svg/lupa.svg" alt="Buscar" class="icon icon--search">
+                    <img src="/image/svg/carrito.svg" alt="Carrito de compras" class="icon icon--cart">
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="hero__container">
+                <img class="hero__image" src="/image/img-home.stilos.gif" alt="Mujeres con diferentes estilos">
+                <button class="hero__button">Comprar Ahora</button>
+            </div>
+        </section>
+        <section class="video">
+            <h2> Como vestir este invierno :</h2>
+             <iframe width="500" height="400" src="https://www.youtube.com/embed/fR2NhQv6sXM" title="Cómo Vestir ELEGANTE Y CASUAL este Invierno 2025! 5 Outfits Imperdibles" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+             
+   
+
+        </section>
+
+        <section class="catalog" id="hover">
+            <h2 class="catalog__title">Catálogo</h2>
+            <p class="catalog__subtitle" id="polos">Polos</p>
+            <div class="catalog__grid">
+                <article class="product">
+                    <img class="product__image" src="/image/cátalogo/polos/polo-carmin-enV.jpg" alt="Polo modelo 1">
+                    <div class="product__data">
+                        <p id="polo1" class="product__paragraph"></P>
+                        <p id="price1" class="product__paragraph red"></p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product__image" src="/image/cátalogo/polos/polo-marron-enV.jpg" alt="Polo modelo 2">
+                    <div class="product__data">
+                        <p id="polo2" class="product__paragraph"></P>
+                        <p id="price2" class="product__paragraph red"></p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product__image" src="/image/cátalogo/polos/polo-negro-fit.jpg" alt="Polo modelo 3">
+                      <div class="product__data">
+                        <p id="polo3" class="product__paragraph"></P>
+                        <p id="price3" class="product__paragraph red"></p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+         <section class="catalog" id="jeans">
+            <p class="catalog__subtitle" >Jeans</p>
+            <div class="catalog__grid">
+                <article class="product">
+                    <img class="product__image" src="/image/cátalogo/jeans/jeans azulceñido.jpg" alt="Polo modelo 1">
+                     <div class="product__data">
+                        <p id="jeans1" class="product__paragraph"></P>
+                        <p id="jeansPrice" class="product__paragraph red"></p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product__image" src="/image/cátalogo/jeans/jeans-azulmarino-rasgado.jpg" alt="Polo modelo 2">
+                     <div class="product__data">
+                        <p id="jeans2" class="product__paragraph"></P>
+                        <p id="jeansPrice2" class="product__paragraph red"></p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product__image" src="/image/cátalogo/jeans/jeans-negro-rasgado.jpg" alt="Polo modelo 3">
+                     <div class="product__data">
+                        <p id="jeans3" class="product__paragraph"></P>
+                        <p id="jeansPrice3" class="product__paragraph red"></p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+         <section class="catalog">
+            <p class="catalog__subtitle" id="camisas5">Camisas</p>
+            <div class="catalog__grid">
+                <article class="product">
+                    <img class="product__image" src="/image/cátalogo/camisas/camisa-azul-cielo.jpg" alt="Polo modelo 1">
+                     <div class="product__data">
+                        <p id="camisa" class="product__paragraph"></P>
+                        <p id="camisaPrice" class="product__paragraph red"></p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product__image" src="/image/cátalogo/camisas/camisa-blanca.jpg" alt="Polo modelo 2">
+                    <div class="product__data">
+                        <p id="camisa2" class="product__paragraph"></P>
+                        <p id="camisaPrice2" class="product__paragraph red"></p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product__image" src="/image/cátalogo/camisas/camisa-rosa.jpg" alt="Polo modelo 3">
+                    <div class="product__data">
+                        <p id="camisa3" class="product__paragraph"></P>
+                        <p id="camisaPrice3" class="product__paragraph red"></p>
+                    </div>
+                </article>
+            </div>
+        </section>
+          <section class="catalog">
+            <p class="catalog__subtitle" id="casacas5">Casacas</p>
+            <div class="catalog__grid">
+                <article class="product">
+                    <img class="product__image" src="/image/cátalogo/casacas/casaca-cuero-marron-2stilos.jpg" alt="Polo modelo 1">
+                       <div class="product__data">
+                        <p id="casacas" class="product__paragraph"></P>
+                        <p id="casacaPrice" class="product__paragraph red"></p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product__image" src="/image/cátalogo/casacas/casaca-cuero-primerstilo.jpg" alt="Polo modelo 2">
+                    <div class="product__data">
+                        <p id="casacas2" class="product__paragraph"></P>
+                        <p id="casacaPrice2" class="product__paragraph red"></p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product__image" src="/image/cátalogo/casacas/casaca-negra-cuero.jpg" alt="Polo modelo 3">
+                    <div class="product__data">
+                        <p id="casacas3" class="product__paragraph"></P>
+                        <p id="casacaPrice3" class="product__paragraph red"></p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+          </section>
+            <section class="catalog">
+            <p class="catalog__subtitle" id="chalecos5">Chalecos</p>
+            <div class="catalog__grid">
+                <article class="product">
+                    <img class="product__image" src="/image/cátalogo/chalecos/chaleco-azul-con capucha-stilizados..jpg" alt="Polo modelo 1">
+                     <div class="product__data">
+                        <p id="chalecos" class="product__paragraph"></P>
+                        <p id="chalecoPrice" class="product__paragraph red"></p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product__image" src="/image/cátalogo/chalecos/chaleco-mujer-azul-marino.jpg" alt="Polo modelo 2">
+                    <div class="product__data">
+                        <p id="chalecos2" class="product__paragraph"></P>
+                        <p id="chalecoPrice2" class="product__paragraph red"></p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product__image" src="/image/cátalogo/chalecos/chaleco-rojo-polar.jpg" alt="Polo modelo 3">
+                    <div class="product__data">
+                        <p id="chalecos3" class="product__paragraph"></P>
+                        <p id="chalecoPrice3" class="product__paragraph red"></p>
+                    </div>
+                </article>
+            </div>
+        </section>
+         <section class="catalog">
+            <h2 class="catalog__title" id="relojes">Accesorios</h2>
+            <p class="catalog__subtitle">Relojes</p>
+            <div class="catalog__grid">
+                <article class="product">
+                    <img class="product__image" src="/image/accesorios/Relojes/reloj-mujer-debolsillo.jpg" alt="Polo modelo 1">
+                     <div class="product__data">
+                        <p id="reloj1" class="product__paragraph"></P>
+                        <p id="relojPrice" class="product__paragraph red"></p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product__image" src="/image/accesorios/Relojes/reloj-mujer-oro.jpg" alt="Polo modelo 2">
+                    <div class="product__data">
+                        <p id="reloj2" class="product__paragraph"></P>
+                        <p id="relojPrice2" class="product__paragraph red"></p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product__image" src="/image/accesorios/Relojes/reloj-plateeado-mujer.jpg" alt="Polo modelo 3">
+                    <div class="product__data">
+                        <p id="reloj3" class="product__paragraph"></P>
+                        <p id="relojPrice3" class="product__paragraph red"></p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="catalog" id="collares">
+            <p class="catalog__subtitle">Collares</p>
+            <div class="catalog__grid">
+                <article class="product">
+                    <img class="product__image" src="/image/accesorios/collares/collar-astronomico.jpg" alt="Polo modelo 1">
+                    <div class="product__data">
+                        <p id="collares1" class="product__paragraph"></P>
+                        <p id="collaresPrice" class="product__paragraph red"></p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product__image" src="/image/accesorios/collares/collar-mujer-tipo-cruz.jpg" alt="Polo modelo 2">
+                     <div class="product__data">
+                        <p id="collares2" class="product__paragraph"></P>
+                        <p id="collaresPrice2" class="product__paragraph red"></p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product__image" src="/image/accesorios/collares/collar-tipo-constelacion.jpg" alt="Polo modelo 3">
+                     <div class="product__data">
+                        <p id="collares3" class="product__paragraph"></P>
+                        <p id="collaresPrice3" class="product__paragraph red"></p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        
+        <section class="catalog" id="pulseras">
+            <p class="catalog__subtitle">Pulseras</p>
+            <div class="catalog__grid">
+                <article class="product">
+                    <img class="product__image" src="/image/accesorios/Pulseras/pulsera-mujer-buena-presentacion.jpg" alt="Polo modelo 1">
+                    <div class="product__data">
+                        <p id="pulseras1" class="product__paragraph"></P>
+                        <p id="pulserasPrice" class="product__paragraph red"></p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product__image" src="/image/accesorios/Pulseras/pulsera-mujer-variado.jpg" alt="Polo modelo 2">
+                    <div class="product__data">
+                        <p id="pulseras2" class="product__paragraph"></P>
+                        <p id="pulserasPrice2" class="product__paragraph red"></p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product__image" src="/image/accesorios/Pulseras/pulseras-oro-mujer.jpg" alt="Polo modelo 3">
+                    <div class="product__data">
+                        <p id="pulseras3" class="product__paragraph"></P>
+                        <p id="pulserasPrice3" class="product__paragraph red"></p>
+                    </div>
+                </article>
+            </div>
+        </section>
+          <section class="catalog" id="aretes">
+            <p class="catalog__subtitle">Aretes</p>
+            <div class="catalog__grid">
+                <article class="product">
+                    <img class="product__image" src="/image/accesorios/Aretes/arete gucci.jpg" alt="Polo modelo 1">
+                     <div class="product__data">
+                        <p id="aretes1" class="product__paragraph"></P>
+                        <p id="aretesPrice1" class="product__paragraph red"></p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product__image" src="/image/accesorios/Aretes/aretes-oro-circulares.jpg" alt="Polo modelo 2">
+                     <div class="product__data">
+                        <p id="aretes2" class="product__paragraph"></P>
+                        <p id="aretesPrice2" class="product__paragraph red"></p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product__image" src="/image/accesorios/Aretes/aretes-oro-doblado-circular.jpg" alt="Polo modelo 3">
+                     <div class="product__data">
+                        <p id="aretes3" class="product__paragraph"></p>
+                        <p id="aretesPrice3" class="product__paragraph red"></p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        
+        
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h3>Acerca de:</h3>
+                <ul>
+                    <li><a href="/nosotros.html">Nosotros</a></li>
+                    <li><a href="/contactanos.html">Contactanos</a></li>
+                </ul>
+                <p class="copyright">Copyright © 2025</p>
+            </div>
+
+            <div class="footer-center">
+                <a href="#" class="logo">Estilos.com</a>
+            </div>
+
+            <div class="footer-right">
+                <div class="payment-methods">
+                    <img src="/image/logos Empresas/visa.png" alt="Visa">
+                    <img src="/image/logos Empresas/mastercard.png" alt="Mastercard">
+                    <img src="/image/logos Empresas/yape.png" alt="Yape">
+                </div>
+                <div class="social-media">
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>

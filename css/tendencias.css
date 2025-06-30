@@ -1,0 +1,71 @@
+*, 
+::before, 
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #f2f2f2;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1.5rem;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.card:hover{
+      transform: rotate(3deg);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container__text {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container__text h2 {
+  font-size: 30px;
+  color: #333;
+}
+
+.card__paragraph {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  margin-top: 16px;
+}
+
+.zoomable {
+  width: 300px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.zoomed {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(2);
+  z-index: 1000;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}

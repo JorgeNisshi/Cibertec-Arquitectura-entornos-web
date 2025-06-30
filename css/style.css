@@ -23,7 +23,6 @@ body {
 
 .header__container {
     width: 90%;
-    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -89,6 +88,19 @@ body {
     object-fit: cover;
 }
 
+.video h2{
+    margin: 20px 0;
+    color: rgb(248, 96, 96);
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .nav {
     display: flex;
 }
@@ -108,11 +120,93 @@ body {
     width: 200px;
     height: 50px;
 
+} 
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex ul li:hover{
+    background-color: aliceblue;
+}
+
+.right li{
+    border-radius: 5px;
+}
+
+
+
+.relative{
+    position: relative;
+}
+
+
+.cuadradoAbsoluto{
+    position: absolute;
+    top: 100%;
+    background-color:  rgb(93, 254, 149);
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(58, 62, 59);
+    z-index: 100;
+    border-radius: 0 0 5px 5px;
+    padding: 5px;
+}
+
+
+
+
+
+.li__flex {
+    text-align: center;
+    padding: 5px 0;
+    margin: 4px;
+}
+
+.inactive{
+    display: none;
+}
+
+.flex a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.cuadradoAbsoluto :hover {
+    background-color: #6fbff5;
+    border-radius: 10px;
+}
+
+.fix{
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    background-color: white;
+    width: 100% ;
+    padding: 10px 60px;
+
 }
 
 .hero__button:hover {
     background-color: #dd7c7c;
 }
+
 
 
 .catalog {
@@ -140,11 +234,8 @@ body {
     gap: 2rem;
 }
 
-.product {
-    overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    transition: transform 0.3s;
+.flex ul li a:hover{
+    background-color: white;
 }
 
 .product:hover {
@@ -156,6 +247,11 @@ body {
     height: 300px;
     object-fit: cover;
     display: block;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
 }
 
 footer {
@@ -176,6 +272,19 @@ footer {
 .footer-left h3 {
     margin-top: 0;
     font-size: 1.2em;
+}
+.product__paragraph{
+    display: block;
+}
+
+.red{
+    color: red;
+}
+
+.product__data{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .footer-left ul {
