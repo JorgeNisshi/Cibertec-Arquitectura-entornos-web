@@ -50,7 +50,7 @@ Home
 
 ## SiteMap Gráfico
 >Hecho en ilustrator
-![SiteMap-Estilos](/Proyecto1%20-Arquitectura%20entorno%20Web/siteMap.pdf)
+![SiteMap-Estilos](/Proyecto1%20-Arquitectura%20entorno%20Web/siteMap.jpg)
 
 ## Wireframe de baja fidelidad
 >Hecho con Figma
