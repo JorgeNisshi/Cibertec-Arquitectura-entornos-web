@@ -54,8 +54,8 @@ Home
 
 ## Wireframe de baja fidelidad
 >Hecho con Figma
-![wireframes-bajaFidelidad](/Proyecto1%20-Arquitectura%20entorno%20Web/wireframe%20%20baja%20fidelidad.png)
+![wireframes-bajaFidelidad](/Proyecto1%20-Arquitectura%20entorno%20Web/wireframe%20%20de%20baja%20fidelidad.png)
 
 ## Wireframe de Alta fidelidad
 >Hecho con Figma
-![wireframe-altaFidelidad](/Proyecto1%20-Arquitectura%20entorno%20Web/wireframe%20alta%20fidelidad.png)
+![wireframe-altaFidelidad](/Proyecto1%20-Arquitectura%20entorno%20Web/wireframe%20%20alta%20fidelidad.jpg)
