@@ -1,4 +1,4 @@
-/* --- Estilos Generales --- */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 
-/* --- Sección Principal de Contacto --- */
+
 .contact-section {
     max-width: 1100px;
     margin: 40px auto;
@@ -28,7 +28,7 @@ body {
     align-items: flex-start;
 }
 
-/* --- Columna Izquierda (Información) --- */
+
 .contact-info {
     flex: 1;
     text-align: left;
@@ -155,7 +155,7 @@ footer {
 }
 
 .payment-methods,
-.social-media {
+.social-media img{
     display: flex;
     gap: 15px;
 }

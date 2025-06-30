@@ -50,12 +50,12 @@ Home
 
 ## SiteMap Gráfico
 >Hecho en ilustrator
-![SiteMap-Estilos](/image/sitMap-stilos.jpg)
+![SiteMap-Estilos](/Proyecto1%20-Arquitectura%20entorno%20Web/siteMap.pdf)
 
 ## Wireframe de baja fidelidad
 >Hecho con Figma
-![wireframes-bajaFidelidad](/image/wireframe%20%20baja%20fidelidad.png)
+![wireframes-bajaFidelidad](/Proyecto1%20-Arquitectura%20entorno%20Web/wireframe%20%20baja%20fidelidad.png)
 
 ## Wireframe de Alta fidelidad
 >Hecho con Figma
-![wireframe-altaFidelidad](/image/wireframe%20alta%20fidelidad.png)
+![wireframe-altaFidelidad](/Proyecto1%20-Arquitectura%20entorno%20Web/wireframe%20alta%20fidelidad.png)
